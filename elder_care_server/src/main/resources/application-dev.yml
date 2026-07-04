@@ -1,0 +1,11 @@
+# 开发环境使用 MySQL 8.4
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/elder_care_dev?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&createDatabaseIfNotExist=true
+    username: root
+    password: 666666
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect

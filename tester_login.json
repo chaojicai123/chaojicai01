@@ -1,0 +1,8 @@
+{
+  "token": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiI0IiwidXNlcm5hbWUiOiJ0ZXN0ZXIxIiwicm9sZSI6IkZBTUlMWSIsImlhdCI6MTc3MDU2Njg3OCwiZXhwIjoxNzcwNjUzMjc4fQ.raxHubVKFaiRBwn8lUo2bzwOOXRIPS2S2q013-ZCT8A2gkYCKHjF6rQxwpcNnzcu",
+  "userId": 4,
+  "username": "tester1",
+  "realName": "Tester",
+  "role": "FAMILY",
+  "linkedElderId": 5
+}

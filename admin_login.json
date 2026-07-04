@@ -1,0 +1,8 @@
+{
+  "token": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3MDU2Njg3OCwiZXhwIjoxNzcwNjUzMjc4fQ.MqzZPos8fZ4l_w4AZNMeYfJUHthwrv4s2SkcCLGQ-hOCfFxDf1SukCGXjC5M70xu",
+  "userId": 1,
+  "username": "admin",
+  "realName": "系统管理员",
+  "role": "ADMIN",
+  "linkedElderId": null
+}

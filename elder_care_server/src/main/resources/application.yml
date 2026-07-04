@@ -1,0 +1,29 @@
+# 默认使用 MySQL 8.4
+spring:
+  application:
+    name: elder-care-server
+  datasource:
+    url: jdbc:mysql://localhost:3306/elder_care?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&createDatabaseIfNotExist=true
+    username: root
+    password: 666666
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+    open-in-view: false
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+jwt:
+  secret: elder-care-system-secret-key-min-256-bits-for-hs256-security
+  expiration-ms: 86400000

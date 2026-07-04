@@ -1,0 +1,23 @@
+{
+  "content": [
+    {
+      "id": 11,
+      "elderId": 5,
+      "elderName": "ElderTest",
+      "recordDate": "2026-02-08",
+      "bloodPressureHigh": 120,
+      "bloodPressureLow": 80,
+      "heartRate": 70,
+      "bloodSugar": null,
+      "temperature": null,
+      "weightKg": null,
+      "remark": null,
+      "source": null,
+      "createdAt": "2026-02-08T16:07:58.754013Z"
+    }
+  ],
+  "page": 0,
+  "size": 10,
+  "totalElements": 1,
+  "totalPages": 1
+}

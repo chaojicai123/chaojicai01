@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+dist/
+*.local
+
+# Java / Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.class
+*.log
+/data/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven logs
+mvn-*.log
+mvn-out.log
+mvn-err.log
+mvn-run.log
+mvn-run2.log
+mvn-run3.log
+mvn-tail.txt
+dep-tree.txt
+dependency-list.txt
+run-output.txt
+server.log
+
+# Environment files
+*.env
+*.env.local
+
+# Build output
+*.tmp
+*.bak
